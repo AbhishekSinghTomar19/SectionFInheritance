@@ -10,10 +10,12 @@ package definitions.transport;
 public class Vehicle {
 
     public void start() {
+
         System.out.println("Vehicle has started.");
     }
 
     public void start(int time) {
+
         System.out.println("Vehicle started at " + time);
     }
 

@@ -7,17 +7,12 @@
 package definitions;
 
 // a simple mobile phone like Noika 1100
-public class MobilePhone extends Phone {
+public class MobilePhone  {
     // MobilePhone extends Phone
     // MobilePhone IS A type of Phone
-    public void printContactNumber() {
-        System.out.println(getContactNumber());
+
     }
 
-    public void changeContactNumber(long contactNumber) {
-        setContactNumber(contactNumber);
-    }
-}
 
 // The MobilePhone class is inheriting the getContactNumber() method
 // from the Phone class.
